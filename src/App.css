@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+:root{
+  --bs-blue:#41a8da;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.me-auto{
+  height: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand{
+  width: 100rem;
+  /* color: rgb(65 168 218); */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.navbar-brand:hover{
+ color: #41a8da;
+}
+
+
+.nav-link{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+.nav-link:hover:hover{
+  /* color: rgb(191 224 90); */
+  color: rgb(243 150 62);
+  border-top: 2px solid orange;
+}
+
+
+.Home{
+  position:relative;
+  background-image: url(/public/laptop.png);
+  background-size:  100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+
+
+
+.header-text{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  color:rgb(191 224 90);
+  padding-top: 20px;
+}
+
+ span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  /* color: rgb(243 150 62) */;
+  /* color: rgb(82 189 178); */
+  color: rgb(28 184 170);
+  margin-top: 50px;
+  
+}
+
+
+.contact-button{
+  border: 2px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-color: #41a8da;
   color: white;
+  background: none;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
 }
