@@ -167,23 +167,37 @@ font-size: large;
 
 /*Skills*/
 
+
 .header, .sub-header{
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
-
+/* .container{
+  background-color: rgb(33, 37, 41);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+} */
 
 .row {
-  /* width: 100px; */
-  height: 100px;
   gap: 20px;
   display: flex;
   justify-content: center;
 }
 
-.col{
-  display: flex;
-  justify-content: center;
+
+
+.container-2{
+  border-top: 2px solid orange;
+  padding-top: 10px;
+  height: 38vh;
 }
 
+.bg2{
+  position: relative;
+  width: 280px;
+  height: 250px;
+ margin-left: 200px;
+}

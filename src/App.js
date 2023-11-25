@@ -31,6 +31,11 @@ function App() {
          <Route path="/Skills" element={<Skills/>}/>
          <Route path="/Projects" element={<Projects/>}/>
        </Routes>
+       <footer className="p-5 bg-dark text-white text-center position-relative">
+        <div className="container">
+          <p className="lead">Copyright</p>
+        </div>
+       </footer>
     </div>
     </BrowserRouter>
   );
