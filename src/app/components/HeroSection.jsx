@@ -12,38 +12,25 @@ const HeroSection = () => {
         </span>
         <br></br>
         <TypeAnimation
-          sequence={[
-            "Tiesha",
-            1000,
-            "Front End Web Developer",
-            1000,
-            "HTML",
-            1000,
-            "CSS",
-            1000,
-            "Javascript",
-            1000,
-            "React",
-            1000,
-            "Node.JS",
-            1000,
-            "Next.JS",
-            1000,
-            "Bootstrap",
-            1000,
-            "Tailwind",
-          ]}
+          sequence={["Tiesha", 1000, "Front End Developer", 1000]}
           wrapper="span"
           speed={50}
           repeat={Infinity}
         />
       </h1>
       <p className="text-[#ADB7BE] text-lg lg:text-xl">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, numquam.
-        Aspernatur, amet nisi eum qui quis placeat eveniet. Recusandae officia
-        doloribus nobis. Voluptas nisi qui incidunt consectetur neque at
-        accusamus?
+        I have earned a certificate in Front-End Development. I'm equipped with
+        the knowledge of HTML, CSS, JavaScript, TypeScript, JSON, React,
+        Node.JS, Next.JS, Bootstrap, and Tailwind.
       </p>
+      <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-orange-500 to-pink-500 hover:bg-slate-200 text-white">
+        Hire Me
+      </button>
+      <button className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
+        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+          Download CV
+        </span>
+      </button>
     </section>
   );
 };
