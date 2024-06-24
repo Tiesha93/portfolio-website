@@ -22,6 +22,28 @@ const TAB_DATA = [
       </ul>
     ),
   },
+  {
+    title: "Education",
+    id: "education",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Meta Online Course</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Certificate",
+    id: "certificate",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>HTML and CSS</li>
+        <li>JavaScript</li>
+        <li>Advanced React</li>
+        <li>Version Control</li>
+        <li>UX/UI</li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
