@@ -50,6 +50,13 @@ const AboutSection = () => {
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
+   const handleTabChange = (id) => {
+     startTransition(() => {
+       setTab(id);
+     });
+   };
+
+
   return (
     <section className="text-white" id="About">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -86,11 +93,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("certificate")}
+              active={tab === "certificate"}
             >
               {" "}
-              Certifications{" "}
+              Certificate{" "}
             </TabButton>
           </div>
           <div className="mt-8">
