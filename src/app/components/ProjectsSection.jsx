@@ -65,6 +65,15 @@ const projectsData = [
     gitUrl: "https://github.com/Tiesha93/hangman",
     previewUrl: "https://tiesha93.github.io/hangman/",
   },
+  {
+    id: 7,
+    title: "Apple Email",
+    description: "Apple promotion Email",
+    image: "/images/projects/apple-email.png",
+    tag: ["All", "Email"],
+    gitUrl: "https://github.com/Tiesha93/apple-email",
+    previewUrl: "https://tiesha93.github.io/apple-email/",
+  },
 ];
 
 const ProjectsSection = () => {
