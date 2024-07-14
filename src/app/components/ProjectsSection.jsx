@@ -92,6 +92,15 @@ const projectsData = [
     gitUrl: "https://github.com/Tiesha93/marriott-email",
     previewUrl: " https://tiesha93.github.io/marriott-email/",
   },
+  {
+    id: 10,
+    title: "HelloFresh Email",
+    description: "HelloFresh newsletter email",
+    image: "/images/projects/hellofresh-email.png",
+    tag: ["All", "Email"],
+    gitUrl: "https://github.com/Tiesha93/hellofresh-email",
+    previewUrl: " https://tiesha93.github.io/hellofresh-email/",
+  },
 ];
 
 const ProjectsSection = () => {
