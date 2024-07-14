@@ -1,24 +1,28 @@
 "use client";
 import React from "react";
-import AnimatedNumbers from "react-animated-numbers";
+import dynamic from "next/dynamic";
 
-
-
+const AnimatedNumbers = dynamic(
+  () => {
+    return import("react-animated-numbers");
+  },
+  { ssr: false }
+);
 
 const achievementsList = [
   {
     metric: "Projects",
-    value: "50",
     postfix: "+",
+    value: "50",
   },
   {
-    prefix: "~",
     metric: "Hours of coding",
-    value: "5,760",
+    prefix: "~",
+    value: "5760",
   },
   {
     metric: "Certificates",
-    value: "6",
+    value: "5",
   },
   {
     metric: "Years",
