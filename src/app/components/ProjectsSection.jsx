@@ -101,6 +101,14 @@ const projectsData = [
     gitUrl: "https://github.com/Tiesha93/hellofresh-email",
     previewUrl: " https://tiesha93.github.io/hellofresh-email/",
   },
+  {
+    id: 11,
+    title: "Carnival Email",
+    description: "Carnival promotion email",
+    image: "/images/projects/carnival-email.png",
+    gitUrl: "https://github.com/Tiesha93/carnival-email",
+    previewUrl: "https://tiesha93.github.io/carnival-email/",
+  },
 ];
 
 const ProjectsSection = () => {
