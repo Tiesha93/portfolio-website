@@ -25,6 +25,7 @@ const ContactSection = () => {
             console.log("FAILED...", error.text);
           }
         );
+        e.target.reset();
     };
 
   return (
@@ -54,7 +55,9 @@ const ContactSection = () => {
       <div>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col">
           <div className="mb-6">
-            <label className="text-white block mb-2 text-sm font-medium">
+            <label
+              className="text-white block mb-2 text-sm font-medium"
+            >
               Your email
             </label>
             <input
@@ -67,7 +70,9 @@ const ContactSection = () => {
             />
           </div>
           <div className="mb-6">
-            <label className="text-white block text-sm mb-2 font-medium">
+            <label
+              className="text-white block text-sm mb-2 font-medium"
+            >
               Subject
             </label>
             <input
@@ -80,7 +85,9 @@ const ContactSection = () => {
             />
           </div>
           <div className="mb-6">
-            <label className="text-white block text-sm mb-2 font-medium">
+            <label
+              className="text-white block text-sm mb-2 font-medium"
+            >
               Message
             </label>
             <textarea
@@ -91,9 +98,9 @@ const ContactSection = () => {
             />
           </div>
           <input
-            type="submit"
-            value="send"
-            className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+          type="submit"
+          value="send"
+          className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-2.5 px-5 rounded-lg w-full cursor-pointer"
           />
         </form>
       </div>
