@@ -68,11 +68,20 @@ const projectsData = [
   {
     id: 7,
     title: "Apple Email",
-    description: "Apple promotion Email",
+    description: "Apple promotion email",
     image: "/images/projects/apple-email.png",
     tag: ["All", "Email"],
     gitUrl: "https://github.com/Tiesha93/apple-email",
     previewUrl: "https://tiesha93.github.io/apple-email/",
+  },
+  {
+    id: 8,
+    title: "Spindrift Email",
+    description: "Spindrift newsletter email",
+    image: "/images/projects/spindrift-email.png",
+    tag: ["All", "Email"],
+    gitUrl: "https://github.com/Tiesha93/spindrift-email",
+    previewUrl: " https://tiesha93.github.io/spindrift-email/",
   },
 ];
 
