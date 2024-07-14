@@ -83,6 +83,15 @@ const projectsData = [
     gitUrl: "https://github.com/Tiesha93/spindrift-email",
     previewUrl: " https://tiesha93.github.io/spindrift-email/",
   },
+  {
+    id: 9,
+    title: "Marriott Email",
+    description: "Marriott transactional email",
+    image: "/images/projects/marriott-email",
+    tag: ["All", "Email"],
+    gitUrl: "https://github.com/Tiesha93/marriott-email",
+    previewUrl: " https://tiesha93.github.io/marriott-email/",
+  },
 ];
 
 const ProjectsSection = () => {
