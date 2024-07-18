@@ -17,7 +17,6 @@ const achievementsList = [
   },
   {
     metric: "Hours of coding",
-    prefix: "~",
     value: "5760",
   },
   {
