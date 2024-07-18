@@ -27,11 +27,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 
 ## Installation
-Make sure you have Node.js and npm installed on your system.
+Node.js 18.17 or later.
+macOS, Windows (including WSL), and Linux are supported.
 
 1. Clone this repository: `git clone https://github.com/Tiesha93/portfolio-website`
 2. Navigate to the project directory: `cd portfolio-website`
-3. Install dependencies: `npm install`
+3. Install dependencies: `npx create-next-app@latest`
 4. Start the development server: `npm run dev`
 
 Since this project was made with Nextjs, you can find your dev server on `http://localhost:3000/`
