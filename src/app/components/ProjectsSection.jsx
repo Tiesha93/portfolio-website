@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "Landing Page",
     description:
-      "This is my first project, a simple langing page with HTML and CSS flexbox",
+      "This is my first project, a simple landing page with HTML and CSS flexbox",
     image: "/images/projects/landing-page.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Tiesha93/landing-page",
@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Tic-Tac-Toe",
     description:
-      "This is the game of tic-tac-toe. I builded this project using HTML, CSS, and JavaScript",
+      "This is the game of tic-tac-toe. I built this project using HTML, CSS, and JavaScript",
     image: "/images/projects/tic-tac-toe.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Tiesha93/tic-tac-toe",
@@ -29,7 +29,7 @@ const projectsData = [
     id: 3,
     title: "Calculator",
     description:
-      "This is a simple calculator. Build with HTML, CSS, and JavaScript.",
+      "This is a simple calculator. Built with HTML, CSS, and JavaScript.",
     image: "/images/projects/calculator.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Tiesha93/Calculator",
