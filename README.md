@@ -1,7 +1,7 @@
 # Portfolio Website
 
 My portfolio project is where I put all of my projects on
-one page, along with my skills and a closer look of my journey.
+one page, along with my skills and a closer look of my journey. You can access the page by visiting the following link: [Live Demo](https://portfolio-website-jet-seven-33.vercel.app/)
 
 ## Features
 
