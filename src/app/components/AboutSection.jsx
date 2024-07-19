@@ -70,12 +70,12 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a front end web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, Git, React, Node.js, Next.js, Typescript,
-            HTML, CSS, Bootstrap, and Tailwind. I am a quick learner and I am
-            always looking to expand my knowledge and skill set. I am a team
-            player and I am excited to work with others to create amazing
-            applications.
+            interactive and responsive web applications, as well as engaging
+            and effective emails. I have experience working with JavaScript, Git,
+            React, Node.js, Next.js, Typescript, HTML, CSS, Bootstrap, and Tailwind.
+            With the ability to learn quickly and I am always looking to expand my
+            knowledge and skills. While being a team player and excited to work with
+            others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
